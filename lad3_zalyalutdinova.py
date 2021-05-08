@@ -1,3 +1,5 @@
+# Вариант 0
+
 import struct as st
 from math import sin, cos, pi
 
