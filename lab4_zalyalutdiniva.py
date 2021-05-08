@@ -56,7 +56,7 @@ builder.build(1)
 builder.check_health()
 
 
-print (bilder.name + " " + str(bilder.movement) + " " + str(bilder.health) + " " + bilder.status)
+print (builder.name + " " + str(builder.movement) + " " + str(builder.health) + " " + builder.status)
 
 shooter = long_range_combat()
 kopeishik = close_combat()
