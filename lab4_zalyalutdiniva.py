@@ -44,16 +44,16 @@ class civil_unit(unit):
         self.name = name
         self.movement = movement
         self.health = health
-    def bild(self, k):
+    def build(self, k):
         if self.movement >= k and self.health >= k:
             self.movement -= k
             self.health -= k
 
-bilder = civil_unit ()
-bilder.set("Bilder", 3, 3)
-bilder.move(3)
-bilder.bild(1)
-bilder.check_health()
+builder = civil_unit ()
+builder.set("Bilder", 3, 3)
+builder.move(3)
+builder.build(1)
+builder.check_health()
 
 
 print (bilder.name + " " + str(bilder.movement) + " " + str(bilder.health) + " " + bilder.status)
